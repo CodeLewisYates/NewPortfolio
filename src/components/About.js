@@ -32,6 +32,10 @@ const useStyles = makeStyles({
 const About = () => {
   const matches = useMediaQuery("(min-width:1000px)");
   const classes = useStyles();
+
+  const downloadCV = () => {
+    window.open("./Lewis Yates CV.pdf");
+  };
   return (
     <>
       <Navbar />
@@ -56,7 +60,11 @@ const About = () => {
           a variety of skills in different programming languages and frameworks
           to be able to develop any site or web app you could think of!
         </Typography>
-        <Button variant="contained" className={classes.button}>
+        <Button
+          variant="contained"
+          className={classes.button}
+          onClick={downloadCV}
+        >
           Download CV
         </Button>
       </Box>
