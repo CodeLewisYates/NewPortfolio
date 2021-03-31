@@ -1,6 +1,6 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { Typography, Grid, Box } from "@material-ui/core";
+import { Typography, Box } from "@material-ui/core";
 import Typed from "react-typed";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 

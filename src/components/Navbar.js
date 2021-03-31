@@ -21,7 +21,6 @@ import {
   Home,
   Apps,
   ContactMail,
-  Block,
 } from "@material-ui/icons";
 
 const useStyles = makeStyles((theme) => ({
